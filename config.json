@@ -1,0 +1,13 @@
+{
+    "rateLimit": {
+        "ttl": 1,
+        "max": 2
+    },
+    "response": {
+        "code": 429,
+        "message": "Rate Limit reached. Please wait and try again."
+    },
+    "mongoose":{
+	"uri": false
+    }
+}

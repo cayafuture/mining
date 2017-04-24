@@ -1,0 +1,44 @@
+{
+  "name": "mining",
+  "version": "1.0.2",
+  "description": "NODEJS mining for CAYA Cryptocurrency",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-prettify": "0.0.7",
+    "express-rate-limit": "^2.6.0",
+    "helmet": "^3.5.0",
+    "ip-regex": "^2.1.0",
+    "lodash.defaultsdeep": "^4.6.0",
+    "moment": "^2.18.1",
+    "mongo-throttle": "^1.2.0",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1",
+    "node-couchdb": "^1.1.1",
+    "pouchdb": "^6.1.2",
+    "pouchdb-find": "^0.10.5",
+    "python-shell": "^0.4.0",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodejs ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cayafuture/mining.git"
+  },
+  "keywords": [
+    "mining",
+    "cayafuture"
+  ],
+  "author": "cayafuture",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cayafuture/mining/issues"
+  },
+  "homepage": "https://github.com/cayafuture/mining#readme"
+}
